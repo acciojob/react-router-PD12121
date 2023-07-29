@@ -19,13 +19,13 @@ const App = () => {
             </li>
           </ul>
         </nav>
-        <Router>
+        <Routes>
 
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
 
        
-        </Router>
+        </Routes>
         
       </div>
     </div>
