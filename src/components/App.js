@@ -1,7 +1,6 @@
 
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
-import './../styles/App.css';
 import Home from "./Home";
 import About from "./About";
 
@@ -20,11 +19,14 @@ const App = () => {
             </li>
           </ul>
         </nav>
+        <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
 
         </Routes>
+        </Router>
+        
       </div>
     </div>
   )
