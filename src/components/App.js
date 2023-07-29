@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       {/* Do not remove the main div */}
-      <div>
+     
         <nav>
           <ul>
             <li>
@@ -26,8 +26,6 @@ const App = () => {
 
        
         </Routes>
-        
-      </div>
     </div>
   )
 };
